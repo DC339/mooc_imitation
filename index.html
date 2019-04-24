@@ -1,0 +1,2744 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>homework</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css"> -->
+</head>
+<body>
+	<div class="header">
+		<!-- top -->
+		<div class="topLogin">
+			<ul class = "dl">
+				<li class = "top-dl">亲，请登录</li>
+				<li class = "top-zc">免费注册</li>
+				<li>手机逛慕淘</li>
+			</ul>
+			<ul class = "menu">
+				<li class = "xl">
+					<span>我的慕淘</span>
+					<ul class="ej mt">
+						<li>我买到的宝贝</li>
+						<li>我的足迹</li>
+					</ul>
+				</li>
+				<li class = "xl"><span>收藏夹</span>
+					<ul class="ej mt">
+						<li>我买到的宝贝</li>
+						<li>我的足迹</li>
+					</ul>
+				</li>
+				<li class = "xl sp"><span>商品分类</span>
+					<ul class="ej mt">
+						<li>我买到的宝贝</li>
+						<li>我的足迹</li>
+					</ul>
+				</li>
+				<li class = "xl"><span>卖家中心</span>
+					<ul class="ej mt">
+						<li>我买到的宝贝</li>
+						<li>我的足迹</li>
+					</ul>
+				</li>
+				<li class = "xl"><span>联系客服</span>
+					<ul class="ej mt">
+						<li>客服电话1</li>
+						<li>客服电话2</li>
+					</ul>
+				</li>
+				<div class="clear"></div>
+			</ul>
+	
+			<div class="clear"></div>
+			<div class="zhez" style="display: none;"></div>
+			<div class="tanc" style="display: none;">
+				<div class="p1">
+					<ul>
+						<li>登录</li>
+						<li>注册</li>
+					</ul>
+					<img src="img/icon/20.png" id="close">
+					<div class="clear"></div>
+				</div>
+				<div class="p2">
+					
+				</div>
+				<div class="p3">
+					<ul>
+						<li><img src="img/icon/xinlang.png"></li>
+						<li><img src="img/icon/weixin.png"></li>
+						<li><img src="img/icon/QQ.png"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="loginContent" style="display: none;">
+				<form action="###" onsubmit="return tccheck()">
+					<input type="text" class="un" value="请输入您的手机号码">
+					<p></p>
+					<input type="passward" class="psw" value="请输入密码">
+					<p></p>
+					<ul>
+						<li><input type="checkbox" class="checkbox">下次自动登录</li>
+						<li>忘记密码</li>
+						<li class="clear"></li>
+					</ul>
+					<input type="submit" value="登录" class="submit">
+				</form>
+			</div>
+			<div class="regicontent" style="display: none;">
+				<form action="###" onsubmit="return tccheck()">
+					<input type="text" class="un" value="请输入手机号">
+					<p></p>
+					<h2><input type="text" class="psw regi" value="请输入验证码"><img src="img/verify.png"><div class="clear"></div></h2>
+					<p></p>
+					<input type="submit" class="submit" value="注册">
+				</form>
+			</div>
+		</div>
+		<!--logo-->
+		<div class="logo">
+			<img src="img/logo.png">
+			<div class="logo_r">
+				<form>
+					<input type="text" value="灵魂美食一元抢" class="txt">
+					<input type="submit" value="搜索" class="btn">
+				</form>
+				<!-- 购物车 -->
+				<div class="shopbox">
+					<div class="shop">
+						<div class="shop_1">
+							购物车
+						</div>
+						<div class="line"></div>
+						<div class="shop_r">
+							0
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+					<div class="shoplist">
+						<p>最新加入的商品</p>
+						<ul>
+							<li>
+								<img src="img/cart/1.png">
+								<p><span>玉兰油多效修护三部曲</span><br><span>￥199</span></p>
+								<img src="img/icon/20.png">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/1.png">
+								<p><span>玉兰油多效修护三部曲</span><br><span>￥199</span></p>
+								<img src="img/icon/20.png">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/1.png">
+								<p><span>玉兰油多效修护三部曲</span><br><span>￥199</span></p>
+								<img src="img/icon/20.png">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/1.png" alt="">
+								<p><span>玉兰油多效修复三部曲</span><br><span>¥199 x 2</span></p>
+								<img src="img/icon/20.png" alt="">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/2.png" alt="">
+								<p><span>玉兰油多效修复三部曲</span><br><span>¥199 x 2</span></p>
+								<img src="img/icon/20.png" alt="">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/3.png" alt="">
+								<p><span>玉兰油多效修复三部曲</span><br><span>¥199 x 2</span></p>
+								<img src="img/icon/20.png" alt="">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/4.png" alt="">
+								<p><span>玉兰油多效修复三部曲</span><br><span>¥199 x 2</span></p>
+								<img src="img/icon/20.png" alt="">
+								<div class="clear"></div>
+							</li>
+							<li>
+								<img src="img/cart/5.png" alt="">
+								<p><span>玉兰油多效修复三部曲</span><br><span>¥199 x 2</span></p>
+								<img src="img/icon/20.png" alt="">
+								<div class="clear"></div>
+							</li>
+						</ul>
+						<p>共10件商品 共计 ￥0.00元<a>去购物车</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- nav区 -->
+	<div class="wrap-nav">
+		<div class="nav">
+			<ul>
+				<li class="spec">商品分类</li>
+				<li>数码城</li>
+				<li>天天黑</li>
+				<li>团购</li>
+				<li>发现</li>
+				<li>二手特级</li>
+				<li>名品汇</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</div>
+	<!-- banner -->
+	<div class="banner">
+		<ul class="navbox1">
+			<li><span>家用电器</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li><span>手机、运营商、数码</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>电脑、办公</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>家具、家居、家装、厨具</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>男装、女装、童装、内衣</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>化妆、清洁、宠物</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>户外运动、钟表</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>汽车、汽车用品</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>母婴、玩具乐器</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>食品、酒类、生鲜、特产</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>医药保健</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>图书、影像、电子书</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>彩票、旅行、充值、票务</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+			<li><span>理财/众筹、白条、保险</span><i class="i"></i>
+				<div class="ej">
+					<div class="part">
+						<div class="tit">电器</div>
+						<ul>
+							<li><a href="">手机</a></li>
+							<li><a href="">对讲机</a></li>
+							<li><a href="">以旧换新</a></li>
+							<li><a href="">手机维修</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">冰箱</div>
+						<ul>
+							<li><a href="">充话费、流量</a></li>
+							<li><a href="">170选号</a></li>
+							<li><a href="">合约机</a></li>
+							<li><a href="">办套餐</a></li>
+							<li><a href="">透号码</a></li>
+							<li><a href="">京东通信</a></li>
+							<li><a href="">中国移动</a></li>
+							<li><a href="">中国联通</a></li>
+							<li><a href="">中国电信</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">电脑</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+					<div class="part">
+						<div class="tit">洗衣机</div>
+						<ul>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">单电／微单相机</a></li>
+							<li><a href="###">单反相机</a></li>
+							<li><a href="###">伯立德</a></li>
+							<li><a href="###">运动相机</a></li>
+							<li><a href="###">摄像机</a></li>
+							<li><a href="###">镜头</a></li>
+							<li><a href="###">户外器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">影视器材</a></li>
+							<li><a href="###">数码相机</a></li>
+							<li><a href="###">冲印服务</a></li>
+						</ul>
+					</div>
+				</div>				
+			</li>
+		</ul>
+		<div class="swiper-container">
+			<div class="swiper-wraper" id = "banner">
+				<div class="wrap-slide slide-active"><img src="img/focus-carousel/1.jpg" href=""></div>
+				<div class="wrap-slide"><img src="img/focus-carousel/2.jpg" href=""></div>
+				<div class="wrap-slide"><img src="img/focus-carousel/3.jpg" href=""></div>
+				<div class="wrap-slide"><img src="img/focus-carousel/4.jpg" href=""></div>
+				<div class="wrap-slide"><img src="img/focus-carousel/5.jpg" href=""></div>
+				<div class="wrap-slide"><img src="img/focus-carousel/6.jpg" href=""></div>
+			</div>
+			<!-- 分页器 -->
+			<div class="dots" id = "dots">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<!-- 左右导航按钮 -->
+			<div class="slide-button prev" id = "prev"></div>
+			<div class="slide-button next" id = "next"></div>
+			<!-- <div class="swiper-pagination"></div> -->
+		</div>
+		<div class="slide-bar">
+			<div class="mnews">
+				<p>
+					<span>慕快报<a href="">更多</a></span>
+					<div class="clear"></div>
+				</p>
+				<ul>
+					<li>[特惠]<a href="">精选图书每满150减50</a></li>
+					<li>[公告]<a href="">精选图书每满150减50</a></li>
+					<li>[特惠]<a href="">精选图书每满150减50</a></li>
+					<li>[公告]<a href="">精选图书每满150减50</a></li>
+					<li>[特惠]<a href="">精选图书每满150减50</a></li>
+				</ul>
+			</div>
+			<div class="cell">
+				<ul>
+					<li>
+						<p><img src="img/icon/1.png"></p>
+						<p>话费</p>
+					</li>
+					<li>
+						<p><img src="img/icon/2.png"></p>
+						<p>机票</p>
+					</li>
+					<li>
+						<p><img src="img/icon/3.png"></p>
+						<p>电影票</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>游戏</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>彩票</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>加油卡</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>酒店</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>火车票</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>众筹</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>理财</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>礼品卡</p>
+					</li>
+					<li>
+						<p><img src="img/icon/4.png"></p>
+						<p>白条</p>
+					</li>
+				</ul>
+			</div>
+			<h4><img src="img/ad.png"></h4>
+		</div>
+	</div>
+	<div class="main">
+		<div class="content">
+			<div class="p1">
+				<div class="left">
+					<div>1F</div>
+					<p>服装鞋包</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li data-lb="dapai" data-img="102px" class="on">大牌</li>
+						<li data-lb="man" data-img="56px">男装</li>
+						<li data-lb="girl" data-img="12px">女装</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div><img src="img/floor-arrow.png"></div>
+			</div>
+			<div class="p2">
+				<ul id="dapai" style="display: block;">
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>
+				<ul id="man" style="display: none;">
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/5.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>	
+				<ul id="girl" style="display: none;">
+					<li>
+						<img src="img/floor/2.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="content">
+			<div class="p1">
+				<div class="left">
+					<div>1F</div>
+					<p>服装鞋包</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li data-lb="dapai" data-img="102px" class="on">大牌</li>
+						<li data-lb="man" data-img="56px">男装</li>
+						<li data-lb="girl" data-img="12px">女装</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div><img src="img/floor-arrow.png"></div>
+			</div>
+			<div class="p2">
+				<ul id="dapai" style="display: block;">
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>
+				<ul id="man" style="display: none;">
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/5.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>	
+				<ul id="girl" style="display: none;">
+					<li>
+						<img src="img/floor/2.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="content">
+			<div class="p1">
+				<div class="left">
+					<div>1F</div>
+					<p>服装鞋包</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li data-lb="dapai" data-img="102px" class="on">大牌</li>
+						<li data-lb="man" data-img="56px">男装</li>
+						<li data-lb="girl" data-img="12px">女装</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div><img src="img/floor-arrow.png"></div>
+			</div>
+			<div class="p2">
+				<ul id="dapai" style="display: block;">
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>
+				<ul id="man" style="display: none;">
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/5.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>	
+				<ul id="girl" style="display: none;">
+					<li>
+						<img src="img/floor/2.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="content">
+			<div class="p1">
+				<div class="left">
+					<div>1F</div>
+					<p>服装鞋包</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li data-lb="dapai" data-img="102px" class="on">大牌</li>
+						<li data-lb="man" data-img="56px">男装</li>
+						<li data-lb="girl" data-img="12px">女装</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div><img src="img/floor-arrow.png"></div>
+			</div>
+			<div class="p2">
+				<ul id="dapai" style="display: block;">
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>
+				<ul id="man" style="display: none;">
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/5.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>	
+				<ul id="girl" style="display: none;">
+					<li>
+						<img src="img/floor/2.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="content">
+			<div class="p1">
+				<div class="left">
+					<div>1F</div>
+					<p>服装鞋包</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li data-lb="dapai" data-img="102px" class="on">大牌</li>
+						<li data-lb="man" data-img="56px">男装</li>
+						<li data-lb="girl" data-img="12px">女装</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div><img src="img/floor-arrow.png"></div>
+			</div>
+			<div class="p2">
+				<ul id="dapai" style="display: block;">
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>衣服的名字贼大牌</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/6.jpg">
+						<p>衣服的名字名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>
+				<ul id="man" style="display: none;">
+					<li>
+						<img src="img/floor/1.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/1.png">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/5.jpg">
+						<p>一个男装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>	
+				<ul id="girl" style="display: none;">
+					<li>
+						<img src="img/floor/2.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/3.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+					<li>
+						<img src="img/floor/4.jpg">
+						<p>一个女装衣服的名字</p>
+						<p>￥479</p>
+					</li>
+				</ul>		
+			</div>
+		</div>
+	</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script> -->
+</body>
+<!-- <script>
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: {delay:2000},//可选选项，自动滑动
+	loop:true,
+	navigation:{
+		nextEl:'.swiper-button-next',
+		prevEl:'.swiper-button-prev'
+	},
+	pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  }
+	
+})
+</script> -->
+</html>
